@@ -1,0 +1,17 @@
+/*Main Content Styles*/
+.app-main-content {
+  flex: 1;
+  width: 100%;
+}
+
+.app-wrapper {//reduce paddding b/w left nav and first card
+  //padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
+  padding-left: 40px;
+  width: 100%;
+
+  @media screen and (max-width: 575px) {
+    padding: 20px;
+  }
+}
